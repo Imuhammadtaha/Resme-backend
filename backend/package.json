@@ -4,10 +4,14 @@
   "description": "",
   "main": "server.js",
   "scripts": {
+   
     "start":"node server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "echo 'no build step needed'",
     "server": "nodemon server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   },
   "keywords": [],
   "author": "",
